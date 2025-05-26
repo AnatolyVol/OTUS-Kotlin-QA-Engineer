@@ -9,6 +9,11 @@ fun <I, O> transformCollection(
     return transformedList
 }
 
+fun <I, O> transformCollectionTwo(
+    collection: Collection<I>,
+    transform: (I) -> O
+): List<O> = collection.map(transform)
+
 fun intToDouble(n: Int) = n.toDouble()
 
 fun main() {
@@ -17,6 +22,6 @@ fun main() {
     println(uppercaseNames)
 
     val numbers = listOf(1, 5, 9)
-    val doubleNumbers = transformCollection(numbers, ::intToDouble)
+    val doubleNumbers = transformCollectionTwo(numbers, ::intToDouble)
     println(doubleNumbers)
 }
