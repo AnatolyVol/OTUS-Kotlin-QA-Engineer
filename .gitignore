@@ -1,12 +1,36 @@
-### IntelliJ IDEA ###
-out/
-!**/src/main/**/out/
-!**/src/test/**/out/
+# IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
 
-### Kotlin ###
-.kotlin
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
 
-### Eclipse ###
+# Kotlin/Java
+*.class
+*.jar
+
+# VS Code
+.vscode/
+
+# Mac OS
+.DS_Store
+
+# Logs
+*.log
+
+# Test reports
+test-results/
+test-output/
+
+# User-specific files
+*.swp
+*.swo
+
+# Eclipse (на всякий случай)
 .apt_generated
 .classpath
 .factorypath
@@ -18,15 +42,9 @@ bin/
 !**/src/main/**/bin/
 !**/src/test/**/bin/
 
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
-
-### VS Code ###
-.vscode/
-
-### Mac OS ###
-.DS_Store
+# NetBeans (на всякий случай)
+nbproject/private/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
