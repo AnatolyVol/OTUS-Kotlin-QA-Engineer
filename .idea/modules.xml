@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/OTUS Kotlin QA Engineer.iml" filepath="$PROJECT_DIR$/OTUS Kotlin QA Engineer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/OTUS_Kotlin_QA_Engineer.main.iml" filepath="$PROJECT_DIR$/.idea/modules/OTUS_Kotlin_QA_Engineer.main.iml" />
     </modules>
   </component>
 </project>
